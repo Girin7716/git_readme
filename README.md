@@ -38,20 +38,9 @@
 - git status
   - 현재 담을게 무엇이 있는지 git 입장에서 살펴보기
   - ![git_status](./git_readme_img/git_status.jpg)
-  - Untracked file(빨간 글씨) == 아직 담기지 않은 파일들
-    - 정확히는 이 파일들이 만들어졌다는 사실들
-    - 앞으로 git_readme_img는 무시하면 됨(리드미 이미지)
-- git add -A
-  - 이곳의 모든 것을 git의 타임캡슐에 넣겠다.
-  - ![git_add](./git_readme_img/git_add.jpg)
-  - 그 후 git status 입력하면
-    - ![status_after_add](./git_readme_img/status_after_add.jpg)
-    - Changes to be comitted == 묻을 것들을 의미
-- git commit -m "내용"
-  - 타임캡슐을 묻는 작업 + 타임캡슐 내용 적기
-  - ![git_commit_first](./git_readme_img/git_commit_first.jpg)
-  - 이후 git status를 하면 묻을게 없다고 나옴.
+  - 
 
+<<<<<<< HEAD
 ---
 
 ## 이후 새 파일 만들기 & commit 하기
@@ -116,3 +105,5 @@
     - git revert (commit 앞의 6자리)
 
 
+=======
+>>>>>>> parent of 7f06a04... Add Modify Delete
