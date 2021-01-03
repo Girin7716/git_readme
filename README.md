@@ -41,8 +41,11 @@
   - 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 
+=======
+>>>>>>> parent of fea39c1... 臾댁떆
 ## 이후 새 파일 만들기 & commit 하기
 - 예제 파일 만들기
   - dog 파일 만들고 name : snoopy 로 저장
@@ -60,13 +63,9 @@
     - ![git_commit_dog](./git_readme_img/git_commit_dog.jpg)
     - 새 캡슐이 묻힌거임
 
----
-
 ## git log (이때까지의 commit 확인)
 - git log
   - ![git_log](./git_readme_img/git_log.jpg)
-
----
 
 ## 조금 더 다양한 변화를 주고 commit 해보기
 - cat file 삭제
@@ -79,6 +78,7 @@
     - Untracked files의 penguin == penguin을 담을 수 있다.
     - Changes not staegd for commit에서의 파일들
       - modified -> 수정된 파일
+<<<<<<< HEAD
       - deleted -> 삭제된 파일
 - 이러한 변화들을 git add로 타임캡슐에 담기
   - ![penguin_commit](./git_readme_img/penguin_commit.jpg)
@@ -107,3 +107,6 @@
 
 =======
 >>>>>>> parent of 7f06a04... Add Modify Delete
+=======
+      - deleted -> 삭제된 파일
+>>>>>>> parent of fea39c1... 臾댁떆
