@@ -37,7 +37,7 @@
 - 현재 시점 저장하기 == 타임캡슐에 내용물을 담고 이 내용물이 무엇인지 뜻하는 tag를 달아서 땅바닥에 묻는 작업
 - git status
   - 현재 담을게 무엇이 있는지 git 입장에서 살펴보기
-  - ![git_status](./git_readme_img/git_status.jpg)
+  - ![git_status](./git_readme_img/git_status.JPG)
   - 
 
 ---
