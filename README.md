@@ -107,3 +107,11 @@
 - git checkout (branch 이름)
   - branch 이름에 해당하는 branch로 넘어가기
   - ![git_checkout](./git_readme_img/git_checkout.JPG)
+- my-idea branch에서 작업해보기
+  - mouse 제거
+    - rm mouse
+  - dinosaur 생성
+    - name : dooly
+  - git add -A
+  - git commit -m "Add dino"
+  - ![do_my_idea](./git_readme_img/do_my_idea.JPG)
