@@ -10,7 +10,7 @@
   - 컴퓨터에서 원하는 위치에 프로젝트를 진행할 폴더 생성
     - <img src="./git_readme_img/create_git_folder.jpg" width="40%">
   - git init (저장소 만들기)
-    - ![git_init](./git_readme_img/git_init.jpg)
+    - ![git_init](./git_readme_img/git_init.JPG)
   - git config --global user.name "(내 이름)"
     - 내 이름 == 자신의 git hub 이름
     - ![config_name](./git_readme_img/config_name.jpg)
