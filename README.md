@@ -121,3 +121,4 @@
     - ![git_merge](./git_readme_img/git_merge.JPG)
 - git log --graph --all --decorate
   - 시각화된 각 분기에서의 작업 내용을 볼 수 있음
+  - ![git_log_all](./git_readme_img/git_log_all.JPG)
