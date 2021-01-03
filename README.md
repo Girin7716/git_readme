@@ -52,6 +52,8 @@
   - ![git_commit_first](./git_readme_img/git_commit_first.jpg)
   - 이후 git status를 하면 묻을게 없다고 나옴.
 
+---
+
 ## 이후 새 파일 만들기 & commit 하기
 - 예제 파일 만들기
   - dog 파일 만들고 name : snoopy 로 저장
@@ -69,9 +71,13 @@
     - ![git_commit_dog](./git_readme_img/git_commit_dog.jpg)
     - 새 캡슐이 묻힌거임
 
+---
+
 ## git log (이때까지의 commit 확인)
 - git log
   - ![git_log](./git_readme_img/git_log.jpg)
+
+---
 
 ## 조금 더 다양한 변화를 주고 commit 해보기
 - cat file 삭제
@@ -85,3 +91,28 @@
     - Changes not staegd for commit에서의 파일들
       - modified -> 수정된 파일
       - deleted -> 삭제된 파일
+- 이러한 변화들을 git add로 타임캡슐에 담기
+  - ![penguin_commit](./git_readme_img/penguin_commit.jpg)
+- git commit -m "Add Modify Delete"
+  - ![commit_amd](./git_readme_img/commit_amd.jpg)
+- git log로 이때까지의 commit 확인
+  - ![git_log2](./git_readme_img/git_log2.jpg)
+    - 이때까지 commit한 (First Commit, Add Dog, Add Modify Delte)의 모습을 볼 수 있다.
+
+---
+
+## 현재까지 진행상황
+- ![yalco](./git_readme_img/yalco.jpg)
+
+---
+
+## 과거로 돌아가기 - Reset
+- 이전에 묻었던 캡슐(commit)을 파내서 과거의 상태로 돌아가기
+- 과감한 방법과 신중한 방법이 있다.
+  - 과감한 방법(reset) : 돌아갈 과거 이후 행적은 복원할 여지 없이 삭제
+    - 돌아갈 시점을 입력
+  - 신중한 방법(revert) : 과거로 돌아가 되 돌아갈 여지를 남김
+    - 취소할 시점을 입력
+    - git revert (commit 앞의 6자리)
+
+
