@@ -92,3 +92,18 @@
   - 신중한 방법(revert) : 과거로 돌아가 되 돌아갈 여지를 남김
     - 취소할 시점을 입력
     - git revert (commit 앞의 6자리)
+
+---
+
+## git branch
+- 평행우주 넘나들기 == 회사 파일을 건들기에는 무섭고 나는 다른 시도하고 싶을때 사용
+- git branch (branch이름)
+  - ![branch_my_idea](./git_readme_img/branch_my_idea.JPG)
+  - 현 시점에서 두 미래로 분기하겠다라는 뜻
+  - 원 branch의 현 상태(내용물)를 그대로 가져옴
+- git branch 입력
+  - 현재의 branch를 볼 수 있음.
+  - ![git_branch](./git_readme_img/git_branch.JPG)
+- git checkout (branch 이름)
+  - branch 이름에 해당하는 branch로 넘어가기
+  - ![git_checkout](./git_readme_img/git_checkout.JPG)
