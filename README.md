@@ -13,23 +13,23 @@
     - ![git_init](./git_readme_img/git_init.JPG)
   - git config --global user.name "(내 이름)"
     - 내 이름 == 자신의 git hub 이름
-    - ![config_name](./git_readme_img/config_name.jpg)
+    - ![config_name](./git_readme_img/config_name.JPG)
   - git config --global user.email "(내 메일주소)"
     - 내 주소 == 자신의 git hub 이메일 주소
-    - ![config_email](./git_readme_img/config_email_moj.jpg)
+    - ![config_email](./git_readme_img/config_email_moj.JPG)
   - 위 작업 수행 후 숨겨진 파일인 .git 폴더 생성이 됨
-    - ![hidden_folder](./git_readme_img/hidden_folder.jpg)
+    - ![hidden_folder](./git_readme_img/hidden_folder.JPG)
     - .git 폴더는 git 관리 느낌으로 git 저장소 의미
 
 - 예제 파일 생성
   - 저장소 폴더에서 git bash를 실행 한 뒤 리눅스에서 파일 만드는것 처럼 vi (파일이름) 후 내용 적기
   - ex1>cat
-    - ![craete_cat](./git_readme_img/create_cat.jpg)
-    - <img src="./git_readme_img/contents_cat.jpg" width="40%">
+    - ![craete_cat](./git_readme_img/create_cat.JPG)
+    - <img src="./git_readme_img/contents_cat.JPG" width="40%">
       - 내용 적기 -> esc -> :wq
   - ex2>mouse
     - cat과 똑같이 내용에 name : jerry 적고 저장
-  - <img src="./git_readme_img/mouse_cat.jpg" width="50%">
+  - <img src="./git_readme_img/mouse_cat.JPG" width="50%">
   
 ---
 
@@ -80,7 +80,7 @@
 ---
 
 ## 현재까지 진행상황
-- ![yalco](./git_readme_img/yalco.jpg)
+- ![yalco](./git_readme_img/yalco.JPG)
 
 ---
 
