@@ -115,3 +115,9 @@
   - git add -A
   - git commit -m "Add dino"
   - ![do_my_idea](./git_readme_img/do_my_idea.JPG)
+- git merge (branch 이름)
+  - git checkout master(or main) 입력해서 branch 이동 후
+  - git merge my-idea 입력
+    - ![git_merge](./git_readme_img/git_merge.JPG)
+- git log --graph --all --decorate
+  - 시각화된 각 분기에서의 작업 내용을 볼 수 있음
