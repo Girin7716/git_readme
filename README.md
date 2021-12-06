@@ -1,124 +1,126 @@
-# Git »ç¿ë¹ı
+![ë…¹í™”_2021_12_06_15_54_16_346](https://user-images.githubusercontent.com/52579096/144802667-ae012ee2-2b56-481c-a45f-1c6d27aa5b06.gif)
 
-- Âü°í ¿µ»ó
+# Git ì‚¬ìš©ë²•
+
+- ì°¸ê³  ì˜ìƒ
   - https://www.youtube.com/watch?v=FXDjmsiv8fI&t=632s
 
 ---
 
-## Git ÀúÀå¼Ò »ı¼º ¹× ¿¹Á¦ ÆÄÀÏ »ı¼º
-- Git ÀúÀå¼Ò »ı¼º
-  - ÄÄÇ»ÅÍ¿¡¼­ ¿øÇÏ´Â À§Ä¡¿¡ ÇÁ·ÎÁ§Æ®¸¦ ÁøÇàÇÒ Æú´õ »ı¼º
+## Git ì €ì¥ì†Œ ìƒì„± ë° ì˜ˆì œ íŒŒì¼ ìƒì„±
+- Git ì €ì¥ì†Œ ìƒì„±
+  - ì»´í“¨í„°ì—ì„œ ì›í•˜ëŠ” ìœ„ì¹˜ì— í”„ë¡œì íŠ¸ë¥¼ ì§„í–‰í•  í´ë” ìƒì„±
     - <img src="./git_readme_img/create_git_folder.jpg" width="40%">
-  - git init (ÀúÀå¼Ò ¸¸µé±â)
+  - git init (ì €ì¥ì†Œ ë§Œë“¤ê¸°)
     - ![git_init](./git_readme_img/git_init.JPG)
-  - git config --global user.name "(³» ÀÌ¸§)"
-    - ³» ÀÌ¸§ == ÀÚ½ÅÀÇ git hub ÀÌ¸§
+  - git config --global user.name "(ë‚´ ì´ë¦„)"
+    - ë‚´ ì´ë¦„ == ìì‹ ì˜ git hub ì´ë¦„
     - ![config_name](./git_readme_img/config_name.JPG)
-  - git config --global user.email "(³» ¸ŞÀÏÁÖ¼Ò)"
-    - ³» ÁÖ¼Ò == ÀÚ½ÅÀÇ git hub ÀÌ¸ŞÀÏ ÁÖ¼Ò
+  - git config --global user.email "(ë‚´ ë©”ì¼ì£¼ì†Œ)"
+    - ë‚´ ì£¼ì†Œ == ìì‹ ì˜ git hub ì´ë©”ì¼ ì£¼ì†Œ
     - ![config_email](./git_readme_img/config_email_moj.JPG)
-  - À§ ÀÛ¾÷ ¼öÇà ÈÄ ¼û°ÜÁø ÆÄÀÏÀÎ .git Æú´õ »ı¼ºÀÌ µÊ
+  - ìœ„ ì‘ì—… ìˆ˜í–‰ í›„ ìˆ¨ê²¨ì§„ íŒŒì¼ì¸ .git í´ë” ìƒì„±ì´ ë¨
     - ![hidden_folder](./git_readme_img/hidden_folder.JPG)
-    - .git Æú´õ´Â git °ü¸® ´À³¦À¸·Î git ÀúÀå¼Ò ÀÇ¹Ì
+    - .git í´ë”ëŠ” git ê´€ë¦¬ ëŠë‚Œìœ¼ë¡œ git ì €ì¥ì†Œ ì˜ë¯¸
 
-- ¿¹Á¦ ÆÄÀÏ »ı¼º
-  - ÀúÀå¼Ò Æú´õ¿¡¼­ git bash¸¦ ½ÇÇà ÇÑ µÚ ¸®´ª½º¿¡¼­ ÆÄÀÏ ¸¸µå´Â°Í Ã³·³ vi (ÆÄÀÏÀÌ¸§) ÈÄ ³»¿ë Àû±â
+- ì˜ˆì œ íŒŒì¼ ìƒì„±
+  - ì €ì¥ì†Œ í´ë”ì—ì„œ git bashë¥¼ ì‹¤í–‰ í•œ ë’¤ ë¦¬ëˆ…ìŠ¤ì—ì„œ íŒŒì¼ ë§Œë“œëŠ”ê²ƒ ì²˜ëŸ¼ vi (íŒŒì¼ì´ë¦„) í›„ ë‚´ìš© ì ê¸°
   - ex1>cat
     - ![craete_cat](./git_readme_img/create_cat.JPG)
     - <img src="./git_readme_img/contents_cat.JPG" width="40%">
-      - ³»¿ë Àû±â -> esc -> :wq
+      - ë‚´ìš© ì ê¸° -> esc -> :wq
   - ex2>mouse
-    - cat°ú ¶È°°ÀÌ ³»¿ë¿¡ name : jerry Àû°í ÀúÀå
+    - catê³¼ ë˜‘ê°™ì´ ë‚´ìš©ì— name : jerry ì ê³  ì €ì¥
   - <img src="./git_readme_img/mouse_cat.JPG" width="50%">
   
 ---
 
-## ÇöÀç ½ÃÁ¡ ÀúÀåÇÏ±â(add & commit)
-- ÇöÀç ½ÃÁ¡ ÀúÀåÇÏ±â == Å¸ÀÓÄ¸½¶¿¡ ³»¿ë¹°À» ´ã°í ÀÌ ³»¿ë¹°ÀÌ ¹«¾ùÀÎÁö ¶æÇÏ´Â tag¸¦ ´Ş¾Æ¼­ ¶¥¹Ù´Ú¿¡ ¹¯´Â ÀÛ¾÷
+## í˜„ì¬ ì‹œì  ì €ì¥í•˜ê¸°(add & commit)
+- í˜„ì¬ ì‹œì  ì €ì¥í•˜ê¸° == íƒ€ì„ìº¡ìŠì— ë‚´ìš©ë¬¼ì„ ë‹´ê³  ì´ ë‚´ìš©ë¬¼ì´ ë¬´ì—‡ì¸ì§€ ëœ»í•˜ëŠ” tagë¥¼ ë‹¬ì•„ì„œ ë•…ë°”ë‹¥ì— ë¬»ëŠ” ì‘ì—…
 - git status
-  - ÇöÀç ´ãÀ»°Ô ¹«¾ùÀÌ ÀÖ´ÂÁö git ÀÔÀå¿¡¼­ »ìÆìº¸±â
+  - í˜„ì¬ ë‹´ì„ê²Œ ë¬´ì—‡ì´ ìˆëŠ”ì§€ git ì…ì¥ì—ì„œ ì‚´í´ë³´ê¸°
   - ![git_status](./git_readme_img/git_status.JPG)
   - 
 
 ---
 
-## ÀÌÈÄ »õ ÆÄÀÏ ¸¸µé±â & commit ÇÏ±â
-- ¿¹Á¦ ÆÄÀÏ ¸¸µé±â
-  - dog ÆÄÀÏ ¸¸µé°í name : snoopy ·Î ÀúÀå
+## ì´í›„ ìƒˆ íŒŒì¼ ë§Œë“¤ê¸° & commit í•˜ê¸°
+- ì˜ˆì œ íŒŒì¼ ë§Œë“¤ê¸°
+  - dog íŒŒì¼ ë§Œë“¤ê³  name : snoopy ë¡œ ì €ì¥
 - git status
-  - ÇöÀç ´ãÀ» ¼ö ÀÖ´Â°ÍÀº dog°¡ ÀÖ´Ù´Â °ÍÀ» È®ÀÎ°¡´É.
+  - í˜„ì¬ ë‹´ì„ ìˆ˜ ìˆëŠ”ê²ƒì€ dogê°€ ìˆë‹¤ëŠ” ê²ƒì„ í™•ì¸ê°€ëŠ¥.
 - git add dog
-  - dog ÆÄÀÏÀ» Å¸ÀÓÄ¸½¶¿¡ ´ã±â
+  - dog íŒŒì¼ì„ íƒ€ì„ìº¡ìŠì— ë‹´ê¸°
 - git commit -m "Add Dog"
-  - git status¸¦ ÀÔ·ÂÇÏ¸é changes~~ ºÎºĞ¿¡ Å¸ÀÓÄ¸½¶¿¡ ´ã±ä ³»¿ë È®ÀÎ(dog)
+  - git statusë¥¼ ì…ë ¥í•˜ë©´ changes~~ ë¶€ë¶„ì— íƒ€ì„ìº¡ìŠì— ë‹´ê¸´ ë‚´ìš© í™•ì¸(dog)
   - git commit -m "Add Dog"
-    - »õ Ä¸½¶ÀÌ ¹¯Èù°ÅÀÓ
+    - ìƒˆ ìº¡ìŠì´ ë¬»íŒê±°ì„
 
 ---
 
-## git log (ÀÌ¶§±îÁöÀÇ commit È®ÀÎ)
-- git log¸¦ ÅëÇØ ÀÌ¶§±îÁöÀÇ commit È®ÀÎÇØº¸±â
+## git log (ì´ë•Œê¹Œì§€ì˜ commit í™•ì¸)
+- git logë¥¼ í†µí•´ ì´ë•Œê¹Œì§€ì˜ commit í™•ì¸í•´ë³´ê¸°
 
 ---
 
-## Á¶±İ ´õ ´Ù¾çÇÑ º¯È­¸¦ ÁÖ°í commit ÇØº¸±â
-- cat file »èÁ¦
-  - rm catÇÏ¸é µÊ
-- mouseÀÇ ³»¿ë¹°À» name : mickey·Î º¯°æ
-- penguin ÆÄÀÏÀ» ¸¸µç ÈÄ name : pororo ÀÛ¼º
-- ±× ÈÄ git status È®ÀÎ
-  - Untracked filesÀÇ penguin == penguinÀ» ´ãÀ» ¼ö ÀÖ´Ù.
-  - Changes not staegd for commit¿¡¼­ÀÇ ÆÄÀÏµé
-    - modified -> ¼öÁ¤µÈ ÆÄÀÏ
-    - deleted -> »èÁ¦µÈ ÆÄÀÏ
-- ÀÌ·¯ÇÑ º¯È­µéÀ» git add -A·Î Å¸ÀÓÄ¸½¶¿¡ ´ã±â
+## ì¡°ê¸ˆ ë” ë‹¤ì–‘í•œ ë³€í™”ë¥¼ ì£¼ê³  commit í•´ë³´ê¸°
+- cat file ì‚­ì œ
+  - rm catí•˜ë©´ ë¨
+- mouseì˜ ë‚´ìš©ë¬¼ì„ name : mickeyë¡œ ë³€ê²½
+- penguin íŒŒì¼ì„ ë§Œë“  í›„ name : pororo ì‘ì„±
+- ê·¸ í›„ git status í™•ì¸
+  - Untracked filesì˜ penguin == penguinì„ ë‹´ì„ ìˆ˜ ìˆë‹¤.
+  - Changes not staegd for commitì—ì„œì˜ íŒŒì¼ë“¤
+    - modified -> ìˆ˜ì •ëœ íŒŒì¼
+    - deleted -> ì‚­ì œëœ íŒŒì¼
+- ì´ëŸ¬í•œ ë³€í™”ë“¤ì„ git add -Aë¡œ íƒ€ì„ìº¡ìŠì— ë‹´ê¸°
 - git commit -m "Add Modify Delete"
-  -´ã¾ÒÀ¸´Ï±î commitÇÏ±â
-- git log·Î ÀÌ¶§±îÁöÀÇ commit È®ÀÎ
-    - ÀÌ¶§±îÁö commitÇÑ (First Commit, Add Dog, Add Modify Delte)ÀÇ ¸ğ½ÀÀ» º¼ ¼ö ÀÖ´Ù.
+  -ë‹´ì•˜ìœ¼ë‹ˆê¹Œ commití•˜ê¸°
+- git logë¡œ ì´ë•Œê¹Œì§€ì˜ commit í™•ì¸
+    - ì´ë•Œê¹Œì§€ commití•œ (First Commit, Add Dog, Add Modify Delte)ì˜ ëª¨ìŠµì„ ë³¼ ìˆ˜ ìˆë‹¤.
 
 ---
 
-## ÇöÀç±îÁö ÁøÇà»óÈ²
+## í˜„ì¬ê¹Œì§€ ì§„í–‰ìƒí™©
 - ![yalco](./git_readme_img/yalco.JPG)
 
 ---
 
-## °ú°Å·Î µ¹¾Æ°¡±â - Reset (À¯Æ©ºê º¸°í Âü°íÇÏ±â(06:57~))
-- ÀÌÀü¿¡ ¹¯¾ú´ø Ä¸½¶(commit)À» ÆÄ³»¼­ °ú°ÅÀÇ »óÅÂ·Î µ¹¾Æ°¡±â
-- °ú°¨ÇÑ ¹æ¹ı°ú ½ÅÁßÇÑ ¹æ¹ıÀÌ ÀÖ´Ù.
-  - °ú°¨ÇÑ ¹æ¹ı(reset) : µ¹¾Æ°¥ °ú°Å ÀÌÈÄ ÇàÀûÀº º¹¿øÇÒ ¿©Áö ¾øÀÌ »èÁ¦
-    - µ¹¾Æ°¥ ½ÃÁ¡À» ÀÔ·Â
-  - ½ÅÁßÇÑ ¹æ¹ı(revert) : °ú°Å·Î µ¹¾Æ°¡ µÇ µ¹¾Æ°¥ ¿©Áö¸¦ ³²±è
-    - Ãë¼ÒÇÒ ½ÃÁ¡À» ÀÔ·Â
-    - git revert (commit ¾ÕÀÇ 6ÀÚ¸®)
+## ê³¼ê±°ë¡œ ëŒì•„ê°€ê¸° - Reset (ìœ íŠœë¸Œ ë³´ê³  ì°¸ê³ í•˜ê¸°(06:57~))
+- ì´ì „ì— ë¬»ì—ˆë˜ ìº¡ìŠ(commit)ì„ íŒŒë‚´ì„œ ê³¼ê±°ì˜ ìƒíƒœë¡œ ëŒì•„ê°€ê¸°
+- ê³¼ê°í•œ ë°©ë²•ê³¼ ì‹ ì¤‘í•œ ë°©ë²•ì´ ìˆë‹¤.
+  - ê³¼ê°í•œ ë°©ë²•(reset) : ëŒì•„ê°ˆ ê³¼ê±° ì´í›„ í–‰ì ì€ ë³µì›í•  ì—¬ì§€ ì—†ì´ ì‚­ì œ
+    - ëŒì•„ê°ˆ ì‹œì ì„ ì…ë ¥
+  - ì‹ ì¤‘í•œ ë°©ë²•(revert) : ê³¼ê±°ë¡œ ëŒì•„ê°€ ë˜ ëŒì•„ê°ˆ ì—¬ì§€ë¥¼ ë‚¨ê¹€
+    - ì·¨ì†Œí•  ì‹œì ì„ ì…ë ¥
+    - git revert (commit ì•ì˜ 6ìë¦¬)
 
 ---
 
 ## git branch
-- ÆòÇà¿ìÁÖ ³Ñ³ªµé±â == È¸»ç ÆÄÀÏÀ» °Çµé±â¿¡´Â ¹«¼·°í ³ª´Â ´Ù¸¥ ½ÃµµÇÏ°í ½ÍÀ»¶§ »ç¿ë
-- git branch (branchÀÌ¸§)
+- í‰í–‰ìš°ì£¼ ë„˜ë‚˜ë“¤ê¸° == íšŒì‚¬ íŒŒì¼ì„ ê±´ë“¤ê¸°ì—ëŠ” ë¬´ì„­ê³  ë‚˜ëŠ” ë‹¤ë¥¸ ì‹œë„í•˜ê³  ì‹¶ì„ë•Œ ì‚¬ìš©
+- git branch (branchì´ë¦„)
   - ![branch_my_idea](./git_readme_img/branch_my_idea.JPG)
-  - Çö ½ÃÁ¡¿¡¼­ µÎ ¹Ì·¡·Î ºĞ±âÇÏ°Ú´Ù¶ó´Â ¶æ
-  - ¿ø branchÀÇ Çö »óÅÂ(³»¿ë¹°)¸¦ ±×´ë·Î °¡Á®¿È
-- git branch ÀÔ·Â
-  - ÇöÀçÀÇ branch¸¦ º¼ ¼ö ÀÖÀ½.
+  - í˜„ ì‹œì ì—ì„œ ë‘ ë¯¸ë˜ë¡œ ë¶„ê¸°í•˜ê² ë‹¤ë¼ëŠ” ëœ»
+  - ì› branchì˜ í˜„ ìƒíƒœ(ë‚´ìš©ë¬¼)ë¥¼ ê·¸ëŒ€ë¡œ ê°€ì ¸ì˜´
+- git branch ì…ë ¥
+  - í˜„ì¬ì˜ branchë¥¼ ë³¼ ìˆ˜ ìˆìŒ.
   - ![git_branch](./git_readme_img/git_branch.JPG)
-- git checkout (branch ÀÌ¸§)
-  - branch ÀÌ¸§¿¡ ÇØ´çÇÏ´Â branch·Î ³Ñ¾î°¡±â
+- git checkout (branch ì´ë¦„)
+  - branch ì´ë¦„ì— í•´ë‹¹í•˜ëŠ” branchë¡œ ë„˜ì–´ê°€ê¸°
   - ![git_checkout](./git_readme_img/git_checkout.JPG)
-- my-idea branch¿¡¼­ ÀÛ¾÷ÇØº¸±â
-  - mouse Á¦°Å
+- my-idea branchì—ì„œ ì‘ì—…í•´ë³´ê¸°
+  - mouse ì œê±°
     - rm mouse
-  - dinosaur »ı¼º
+  - dinosaur ìƒì„±
     - name : dooly
   - git add -A
   - git commit -m "Add dino"
   - ![do_my_idea](./git_readme_img/do_my_idea.JPG)
-- git merge (branch ÀÌ¸§)
-  - git checkout master(or main) ÀÔ·ÂÇØ¼­ branch ÀÌµ¿ ÈÄ
-  - git merge my-idea ÀÔ·Â
+- git merge (branch ì´ë¦„)
+  - git checkout master(or main) ì…ë ¥í•´ì„œ branch ì´ë™ í›„
+  - git merge my-idea ì…ë ¥
     - ![git_merge](./git_readme_img/git_merge.JPG)
 - git log --graph --all --decorate
-  - ½Ã°¢È­µÈ °¢ ºĞ±â¿¡¼­ÀÇ ÀÛ¾÷ ³»¿ëÀ» º¼ ¼ö ÀÖÀ½
+  - ì‹œê°í™”ëœ ê° ë¶„ê¸°ì—ì„œì˜ ì‘ì—… ë‚´ìš©ì„ ë³¼ ìˆ˜ ìˆìŒ
   - ![git_log_all](./git_readme_img/git_log_all.JPG)
