@@ -1,3 +1,23 @@
+## 이름 설정
+![이름설정](https://user-images.githubusercontent.com/52579096/144970720-1b3c17cf-6458-4634-8104-003ee0e766fd.gif)
+
+## 방 입장
+![방입장](https://user-images.githubusercontent.com/52579096/144970748-d10531fe-618f-4d32-a714-c962bc40dd7c.gif)
+
+## 채팅
+![채팅](https://user-images.githubusercontent.com/52579096/144970761-7a07b639-badf-4f7f-b92e-5713ceab2ea6.gif)
+
+## 이름 변경 & 방 변경
+![이름 변경](https://user-images.githubusercontent.com/52579096/144970781-2dd03480-2505-4a4e-a852-2f2db83ead75.gif)
+
+## fast moveShape
+![fast moveShape](https://user-images.githubusercontent.com/52579096/144970832-d8d9435e-d232-42b9-a634-1bdfc535d63c.gif)
+
+## slow moveShape
+![slow moveShape](https://user-images.githubusercontent.com/52579096/144970856-7c13bd9d-2b92-4f9c-87a6-62b68b0c313b.gif)
+
+
+## MoveShape
 ![녹화_2021_12_06_15_54_16_346](https://user-images.githubusercontent.com/52579096/144802667-ae012ee2-2b56-481c-a45f-1c6d27aa5b06.gif)
 
 # Git 사용법
